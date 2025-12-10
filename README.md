@@ -1,0 +1,1 @@
+# LP_ICT10Emerald_Q2Project_Valeroso_Eyl_Carl
