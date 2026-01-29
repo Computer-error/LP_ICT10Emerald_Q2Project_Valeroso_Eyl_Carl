@@ -57,7 +57,8 @@ def calculate_average(event):
 
     document.getElementById("averageA").innerText = str(round(average,2))
 
-    document.getElementById("result").innerText = ( Lname+", "+Fname+", a student from grade "+lev+set+", has "+result+" this quarter with a grade of "+str(round(average,2))+"("+rank+")""." )
+    document.getElementById("result").innerText = ( Lname+", "+Fname+", a student from grade "+lev+set+", has "+result+" this quarter with a grade of "+str(round(average,2))+" (Rating:"+rank+")""." )
+
 
 
 
