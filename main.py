@@ -48,16 +48,17 @@ def calculate_average(event):
     else:
         rank = "F-"
 
-    if average >= 75:
-        result = "passed"
-    elif average == 100:
+    if average == 100:
         result = "aced"
+    elif average >= 70:
+        result = "passed"
     else:
         result = "failed"
 
     document.getElementById("averageA").innerText = str(round(average,2))
 
     document.getElementById("result").innerText = ( Lname+", "+Fname+", a student from grade "+lev+set+", has "+result+" this quarter with a grade of "+str(round(average,2))+"("+rank+")""." )
+
 
 
 
